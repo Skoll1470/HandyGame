@@ -36,8 +36,6 @@ public class GameManagerScript : MonoBehaviour
 
     private bool playerHealed = false;
 
-    private bool playerBlocked = false;
-
     // Boolean indicating the current Enemey Attack index
     private int enemyAttackIndex;
 
@@ -46,9 +44,14 @@ public class GameManagerScript : MonoBehaviour
 
     private DataClass dataClass;
 
+    private float autoScrollingTime = 0.0f;
+
+    private int autoScrollingIndex = 0;
+
     private class DataClass
     {
-        public bool difficulty = false;
+        public bool autoScrolling = false;
+        public int autoScrollingSpeed = 5;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -57,31 +60,48 @@ public class GameManagerScript : MonoBehaviour
         // Starting with the encounter dialog
         StartNewDialog("Un ennemi est apparu !");
 
-        string json = File.ReadAllText(Application.persistentDataPath + "/Settings.json");
-        dataClass = JsonUtility.FromJson<DataClass>(json);
-        Debug.Log(dataClass.difficulty);
+        ReadJson();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse0) && dataClass.autoScrolling && isUnoccupied && !dialog.gameObject.activeInHierarchy && Time.timeScale > 0)
+        {
+            foreach (Button button in canvas.playerActionButtons)
+            {
+                canvas.playerActionButtons[autoScrollingIndex].image.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+            }
+            switch (autoScrollingIndex)
+            {
+                case 0:
+                    StartPlayerAttack(0);
+                    break;
+
+                case 1:
+                    StartPlayerBlocking();
+                    break;
+
+                case 2:
+                    StartPlayerHeal(2);
+                    break;
+            }
+        }
+
         // Checking if the Player just performed an action
-        if(player.GetStopAttacking())
+        if (player.GetStopAttacking())
         {
             // Updating the Gamestate
             isUnoccupied = true;
             player.SetStopAttacking(0);
             playerAttacked = true;
-            if(dataClass.difficulty)
-            {
-                playerBlocked = player.GetIsBlocking();
-            }
+            autoScrollingIndex = 0;
+            autoScrollingTime = 0.0f;
 
             // Determining wich Dialog to show
             if(player.GetIsBlocking())
             {
                 StartNewDialog("Vous vous préparez à bloquer une attaque.");
-                
             }
             else if(playerHealed)
             {
@@ -171,9 +191,13 @@ public class GameManagerScript : MonoBehaviour
 
     private void FixedUpdate()
     {
+        int numberOfActives = 0;
+
         // Determining if the Gamestate is at the Start of a Turn 
         isStartOfTurn = !dialog.gameObject.activeInHierarchy && isUnoccupied && player.currentLifePoints != 0 && enemy.currentLifePoints != 0;
-        
+
+        ReadJson();
+
         // Showing or not the Player Action Buttons if it's the Start of the Turn
         foreach (Button button in canvas.playerActionButtons)
         {
@@ -185,13 +209,20 @@ public class GameManagerScript : MonoBehaviour
                     button.gameObject.SetActive(false);
                 }            
             }
-            if(dataClass.difficulty)
+            numberOfActives = button.gameObject.activeInHierarchy ? numberOfActives + 1 : numberOfActives;
+            canvas.playerActionButtons[autoScrollingIndex].image.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        }
+
+        if(dataClass.autoScrolling && isStartOfTurn)
+        {
+            autoScrollingTime += Time.deltaTime;
+            if(autoScrollingTime >= dataClass.autoScrollingSpeed)
             {
-                if(isStartOfTurn && button == canvas.playerActionButtons[1])
-                {
-                    button.gameObject.SetActive(!playerBlocked);
-                }
+                autoScrollingIndex = autoScrollingIndex == numberOfActives - 1 ? 0 : autoScrollingIndex + 1;
+                autoScrollingTime = 0.0f;
             }
+            canvas.playerActionButtons[autoScrollingIndex].Select();
+            canvas.playerActionButtons[autoScrollingIndex].image.color = new Color(0.0f, 1.0f, 1.0f, 1.0f);
         }
     }
 
@@ -214,7 +245,6 @@ public class GameManagerScript : MonoBehaviour
             if(enemyAttackRemainingTurns <= 0)
             {
                 enemyAttackIndex = Random.Range(0, enemy.attacks.Count);
-                //enemyAttackIndex = 2;
                 enemyAttackRemainingTurns = enemy.attacks[enemyAttackIndex].numberOfTurns;
             }
             enemy.PerformAttackByIndex(enemyAttackIndex);
@@ -242,5 +272,11 @@ public class GameManagerScript : MonoBehaviour
     {
         dialog.SetLine(input);
         dialog.StartDialog();
+    }
+
+    private void ReadJson()
+    {
+        string json = File.ReadAllText(Application.persistentDataPath + "/Settings.json");
+        dataClass = JsonUtility.FromJson<DataClass>(json);
     }
 }

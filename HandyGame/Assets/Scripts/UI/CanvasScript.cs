@@ -46,13 +46,12 @@ public class CanvasScript : MonoBehaviour
         {
             button.gameObject.SetActive(false);
         }
-
         UpdateHealText(player.numberOfHeals.ToString());
     }
 
     void SetupHeartIntances(CharacterScript character, float xStartingPoint, float yStartingPoint)
     {
-        if(character.tag == "Player")
+        if(character.CompareTag("Player"))
         {
             for (int index = 0; index < character.maxLifePoints; index++)
             {

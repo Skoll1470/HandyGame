@@ -1,4 +1,6 @@
+using System;
 using System.IO;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,16 +13,30 @@ public class SceneManagement : MonoBehaviour
 
     public Texture2D hardModeImage;
 
-    public RawImage difficultyImage;
+    public RawImage autoScrollingImage;
 
-    private DatatClass dataClass;
+    public int autoScrollingSpeed = 5;
+
+    public TMP_Text autoScrollingSpeedText;
+
+    public Image settingsImage;
+
+    private DataClass dataClass;
 
     private bool isGamePaused = false;
+    private class DataClass
+    {
+        public bool autoScrolling = false;
+        public int autoScrollingSpeed = 5;
+    }
 
     private void Start()
     {
-        dataClass = new DatatClass();
+        dataClass = new DataClass();
+        ReadJson();
         SaveJson();
+        autoScrollingSpeedText.text = autoScrollingSpeed.ToString() + "s";
+        settingsImage.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -31,10 +47,6 @@ public class SceneManagement : MonoBehaviour
         }
     }
 
-    private class DatatClass
-    {
-        public bool difficulty = false;
-    }
     public void LoadCombatScene(int sceneIndex)
     {
         SceneManager.LoadScene("Combat"+sceneIndex.ToString());
@@ -49,12 +61,32 @@ public class SceneManagement : MonoBehaviour
     {
         string json = JsonUtility.ToJson(dataClass);
         File.WriteAllText(Application.persistentDataPath + "/Settings.json", json);
-        difficultyImage.texture = dataClass.difficulty ? hardModeImage : normalModeImage;
+        Debug.Log(Application.persistentDataPath + "/Settings.json");
+        autoScrollingImage.texture = dataClass.autoScrolling ? hardModeImage : normalModeImage;
+        autoScrollingSpeedText.text = dataClass.autoScrollingSpeed.ToString();
     }
 
-    public void ChangeDifficulty()
+    public void UpdateAutoScrolling()
     {
-        dataClass.difficulty = !dataClass.difficulty;
+        dataClass.autoScrolling = !dataClass.autoScrolling;
+        SaveJson();
+    }
+
+    public void UpdateAutoScrollingSpeed(bool isIncrementing)
+    {
+        if (isIncrementing)
+        {
+            autoScrollingSpeed++;
+        }
+        else
+        {
+            if (autoScrollingSpeed > 1)
+            {
+                autoScrollingSpeed--;
+            }
+        }
+        autoScrollingSpeedText.text = autoScrollingSpeed.ToString() + "s";
+        dataClass.autoScrollingSpeed = autoScrollingSpeed;
         SaveJson();
     }
 
@@ -63,5 +95,18 @@ public class SceneManagement : MonoBehaviour
         isGamePaused = !isGamePaused;
         Time.timeScale = isGamePaused ? 0 : 1;
         canvas.pauseImage.gameObject.SetActive(isGamePaused);
+        SaveJson();
+    }
+
+    public void ShowHideSettings(bool isShowing)
+    {
+        settingsImage.gameObject.SetActive(isShowing);
+    }
+
+    private void ReadJson()
+    {
+        string json = File.ReadAllText(Application.persistentDataPath + "/Settings.json");
+        dataClass = JsonUtility.FromJson<DataClass>(json);
+        autoScrollingSpeed = dataClass.autoScrollingSpeed;
     }
 }

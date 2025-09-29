@@ -17,6 +17,7 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -103,6 +104,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -271,7 +274,19 @@ ScriptsOnlyBuild:
     methodName: LoadCombatScene
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagement
-    methodName: ChangeDifficulty
+    methodName: ShowHideSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrollingSpeed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrollingSpeed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrolling
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: ShowHideSettings
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
@@ -316,13 +331,22 @@ ScriptsOnlyBuild:
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagement
+    methodName: ShowHideSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrollingSpeed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrollingSpeed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrolling
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagement
     methodName: PauseGame
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManagement
-    methodName: ChangeDifficulty
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagement
     methodName: QuitGame
@@ -340,7 +364,13 @@ ScriptsOnlyBuild:
     methodName: LoadCombatScene
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagement
+    methodName: ShowHideSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
     methodName: LoadCombatScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: ShowHideSettings
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagement
     methodName: QuitGame
@@ -365,6 +395,24 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManagerScript
     methodName: StartPlayerAttack
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: ShowHideSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrollingSpeed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrollingSpeed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: UpdateAutoScrolling
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: ShowHideSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagement
+    methodName: LoadCombatScene
   sceneClasses:
     Assets/Scenes/Combat1.unity:
     - Class: 1
@@ -1826,7 +1874,7 @@ ScriptsOnlyBuild:
     className: ScreenSpaceAmbientOcclusion
   - hash:
       serializedVersion: 2
-      Hash: 6f055a4e3df0d54aafa0c306e21385ab
+      Hash: 9093092847fd7a87cd3672e0c5a36f4d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SceneManagement
@@ -2753,4 +2801,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Combat1.unity
   - Assets/Scenes/Combat2.unity
-  playerPath: C:/Users/thoma/OneDrive/Bureau/Work/Handy/HandyGame/Builds/MacOS/MacOS.app
+  playerPath: C:/Users/thoma/OneDrive/Bureau/Work/Handy/Builds/MacOS.app

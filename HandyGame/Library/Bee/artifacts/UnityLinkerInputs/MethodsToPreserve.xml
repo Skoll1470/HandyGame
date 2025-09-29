@@ -9,8 +9,7 @@
 			<method name="StartPlayerHeal"/>
 		</type>
 		<type fullname="SceneManagement">
-			<method name="ChangeDifficulty"/>
-			<method name="ChangeDifficulty"/>
+			<method name="LoadCombatScene"/>
 			<method name="LoadCombatScene"/>
 			<method name="LoadCombatScene"/>
 			<method name="LoadCombatScene"/>
@@ -23,6 +22,22 @@
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
+			<method name="ShowHideSettings"/>
+			<method name="ShowHideSettings"/>
+			<method name="ShowHideSettings"/>
+			<method name="ShowHideSettings"/>
+			<method name="ShowHideSettings"/>
+			<method name="ShowHideSettings"/>
+			<method name="ShowHideSettings"/>
+			<method name="UpdateAutoScrolling"/>
+			<method name="UpdateAutoScrolling"/>
+			<method name="UpdateAutoScrolling"/>
+			<method name="UpdateAutoScrollingSpeed"/>
+			<method name="UpdateAutoScrollingSpeed"/>
+			<method name="UpdateAutoScrollingSpeed"/>
+			<method name="UpdateAutoScrollingSpeed"/>
+			<method name="UpdateAutoScrollingSpeed"/>
+			<method name="UpdateAutoScrollingSpeed"/>
 		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
