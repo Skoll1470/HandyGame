@@ -7,6 +7,7 @@
 		<type fullname="EnemyBasicAttackScript" preserve="nothing"/>
 		<type fullname="EnemySpellScript" preserve="nothing"/>
 		<type fullname="GameManagerScript" preserve="nothing"/>
+		<type fullname="HealingFXScript" preserve="nothing"/>
 		<type fullname="HeartPrefabScript" preserve="nothing"/>
 		<type fullname="SceneManagement" preserve="nothing"/>
 		<type fullname="SpellScript" preserve="nothing"/>

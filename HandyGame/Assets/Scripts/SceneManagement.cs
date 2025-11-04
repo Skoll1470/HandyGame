@@ -35,7 +35,7 @@ public class SceneManagement : MonoBehaviour
         dataClass = new DataClass();
         ReadJson();
         SaveJson();
-        autoScrollingSpeedText.text = autoScrollingSpeed.ToString() + "s";
+        autoScrollingSpeedText.text = autoScrollingSpeed.ToString() + " s";
         settingsImage.gameObject.SetActive(false);
     }
 
@@ -45,11 +45,17 @@ public class SceneManagement : MonoBehaviour
         {
             PauseGame();
         }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            UpdateAutoScrolling();
+        }
     }
 
     public void LoadCombatScene(int sceneIndex)
     {
         SceneManager.LoadScene("Combat"+sceneIndex.ToString());
+        Time.timeScale = 1;
     }
 
     public void QuitGame()
@@ -61,9 +67,8 @@ public class SceneManagement : MonoBehaviour
     {
         string json = JsonUtility.ToJson(dataClass);
         File.WriteAllText(Application.persistentDataPath + "/Settings.json", json);
-        Debug.Log(Application.persistentDataPath + "/Settings.json");
         autoScrollingImage.texture = dataClass.autoScrolling ? hardModeImage : normalModeImage;
-        autoScrollingSpeedText.text = dataClass.autoScrollingSpeed.ToString();
+        autoScrollingSpeedText.text = dataClass.autoScrollingSpeed.ToString() + " s";
     }
 
     public void UpdateAutoScrolling()
@@ -85,7 +90,6 @@ public class SceneManagement : MonoBehaviour
                 autoScrollingSpeed--;
             }
         }
-        autoScrollingSpeedText.text = autoScrollingSpeed.ToString() + "s";
         dataClass.autoScrollingSpeed = autoScrollingSpeed;
         SaveJson();
     }

@@ -397,6 +397,7 @@
 "Assets/Scripts/Character/Wizard/WizardBasicAttack.cs"
 "Assets/Scripts/Character/Wizard/WizardBlockAttackScript.cs"
 "Assets/Scripts/Character/Wizard/WizardChargedAttackScript.cs"
+"Assets/Scripts/FX/HealingFXScript.cs"
 "Assets/Scripts/GameManagerScript.cs"
 "Assets/Scripts/SceneManagement.cs"
 "Assets/Scripts/UI/CanvasScript.cs"

@@ -14,7 +14,7 @@ public class BasicAttack : AttackScript
         distanceToEnemy.x = opponent.transform.position.x - transform.position.x;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         //distanceToEnemy.x = Mathf.Abs(opponent.transform.position.x - transform.position.x);
         character.rigidBody.linearVelocityX = (isDashing ? character.moveSpeed : 0f) * (character.spriteRenderer.flipX ? -1f : 1f);

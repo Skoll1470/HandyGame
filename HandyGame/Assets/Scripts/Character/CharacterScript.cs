@@ -73,11 +73,11 @@ public class CharacterScript : MonoBehaviour
 
     public void Heal(int amount)
     {
-        // If the Character has no Life Points or no more Heals, exit
-        if( currentLifePoints <= 0 || numberOfHeals <= 0) return;
+        // If the Character has no Life Points, no more Heals or is at Max Life Points, exit
+        if( currentLifePoints <= 0 || numberOfHeals <= 0 || currentLifePoints == maxLifePoints) return;
 
-        // Setting the updated current Life Points, if the Character is at Max Life Points, doesn't change
-        currentLifePoints = (currentLifePoints == maxLifePoints) ? maxLifePoints : (currentLifePoints + amount);
+        // Setting the updated current Life Points, making sure it doesn't exceed the Max Life Points
+        currentLifePoints = (currentLifePoints + amount) >= maxLifePoints ? maxLifePoints : currentLifePoints + amount;
 
         // Playing the Heal Audio
         PlayAudioClipByName("AudioHeal");
