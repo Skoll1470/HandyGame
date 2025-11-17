@@ -1,21 +1,21 @@
 {
   "context": {
     "projectPath": "C:/Users/thoma/OneDrive/Bureau/Work/Handy/HandyGame/HandyGame/Packages",
-    "unityVersion": "6000.1.0f1"
+    "unityVersion": "6000.2.10f1"
   },
   "inputs": [
     "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Packages\\manifest.json",
     "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Packages\\packages-lock.json",
-    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.unity.collab-proxy@2.7.1": {
+    "com.unity.collab-proxy@2.10.0": {
       "name": "com.unity.collab-proxy",
-      "displayName": "Version Control",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.collab-proxy@50ac96531b63",
-      "fingerprint": "50ac96531b6358586ccfdf8cc845939bf50d9fab",
+      "displayName": "Unity Version Control",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.collab-proxy@1e5e48aff19d",
+      "fingerprint": "1e5e48aff19daaf7562fad196714be852e56fff3",
       "editorCompatibility": "2021.3.0f1",
-      "version": "2.7.1",
+      "version": "2.10.0",
       "source": "registry",
       "testable": false
     },
@@ -28,33 +28,33 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.36": {
+    "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
-      "fingerprint": "4d374c7eb6db6907c7e6925e3086c3c73f926e13",
-      "editorCompatibility": "2019.4.6f1",
-      "version": "3.0.36",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+      "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.0.38",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.visualstudio@2.0.23": {
+    "com.unity.ide.visualstudio@2.0.25": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
-      "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
-      "editorCompatibility": "2019.4.25f1",
-      "version": "2.0.23",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.ide.visualstudio@74aa435fc4bb",
+      "fingerprint": "74aa435fc4bb41890f400130ec80f271d1292fd4",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "2.0.25",
       "source": "registry",
       "testable": false
     },
-    "com.unity.inputsystem@1.14.0": {
+    "com.unity.inputsystem@1.14.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
-      "fingerprint": "7fe8299111a78212d8968229ab41a82e4991ba25",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5",
+      "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.0",
+      "version": "1.14.2",
       "source": "registry",
       "testable": false
     },
@@ -68,60 +68,60 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.render-pipelines.universal@17.1.0": {
+    "com.unity.render-pipelines.universal@17.2.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.render-pipelines.universal@24527717fb47",
-      "fingerprint": "24527717fb479007da63af17a77ac3f7f36afc7b",
-      "editorCompatibility": "6000.1.0a1",
-      "version": "17.1.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.render-pipelines.universal@4976252adeb8",
+      "fingerprint": "4976252adeb8bb9e73a668b5c0776a28ae94afd6",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.test-framework@1.5.1": {
+    "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.test-framework@f6ed7fd5ec8f",
-      "fingerprint": "f6ed7fd5ec8f82bf5b960dcafb5c3457ff24c4d7",
-      "editorCompatibility": "2022.3.0a1",
-      "version": "1.5.1",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.test-framework@d97b7cd61ded",
+      "fingerprint": "d97b7cd61dedd05f0fbaa425a40bd39d098f5cfc",
+      "editorCompatibility": "6000.0.44f1",
+      "version": "1.6.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.7": {
+    "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
-      "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.8.7",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
+      "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.9",
       "source": "registry",
       "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.ugui@77ab6c14086a",
-      "fingerprint": "77ab6c14086a78be39959c143506f2d27f70c4e3",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.ugui@7056cb05de4c",
+      "fingerprint": "7056cb05de4c8d42fc864130edd83b3a093a8505",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.6": {
+    "com.unity.visualscripting@1.9.8": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.visualscripting@7dcdc439b230",
-      "fingerprint": "7dcdc439b230145cec4202cd6ebad135736e0c14",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
+      "fingerprint": "b4d700247d4b84b3360e1afeb054b0bdb201fbc7",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.6",
+      "version": "1.9.8",
       "source": "registry",
       "testable": false
     },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -129,7 +129,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -137,7 +137,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -145,7 +145,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -153,7 +153,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -161,7 +161,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -169,7 +169,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -177,7 +177,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -185,7 +185,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -193,7 +193,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -201,7 +201,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -209,7 +209,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -217,7 +217,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -225,7 +225,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -233,7 +233,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -241,7 +241,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -249,7 +249,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -257,7 +257,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -265,7 +265,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -273,7 +273,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -281,7 +281,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -289,7 +289,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -297,7 +297,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -305,7 +305,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -313,7 +313,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -321,7 +321,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -329,7 +329,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -337,7 +337,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -345,7 +345,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -353,7 +353,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -361,7 +361,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -369,7 +369,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -377,7 +377,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -385,7 +385,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -400,43 +400,43 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.render-pipelines.core@17.1.0": {
+    "com.unity.render-pipelines.core@17.2.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.render-pipelines.core@e1ccf0da7b78",
-      "fingerprint": "e1ccf0da7b7866fa5b58ea14860297de7848dfd2",
-      "editorCompatibility": "6000.1.0a1",
-      "version": "17.1.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.render-pipelines.core@1f4d88678591",
+      "fingerprint": "1f4d8867859138979c404a1b8a05c2eea37f8a9c",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.shadergraph@17.1.0": {
+    "com.unity.shadergraph@17.2.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.shadergraph@eb9759d45cf8",
-      "fingerprint": "eb9759d45cf8efe237ec67f5c7c6880261fd59c4",
-      "editorCompatibility": "6000.1.0a1",
-      "version": "17.1.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.shadergraph@cd9db05bbc12",
+      "fingerprint": "cd9db05bbc12e55ac2643785fe5cca52228ad256",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@6af1487fecff",
-      "fingerprint": "6af1487fecff04dbba58e29eb0f241dfd8592c96",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.animation@10.2.0": {
+    "com.unity.2d.animation@12.0.2": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.animation@53bd21164c9c",
-      "fingerprint": "53bd21164c9caf4b4a6656d91a22d3ee19d17a42",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "10.2.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.animation@34e0443c58ed",
+      "fingerprint": "34e0443c58ed65e66d21023245d2862e066ab2e7",
+      "editorCompatibility": "6000.2.0b4",
+      "version": "12.0.2",
       "source": "registry",
       "testable": false
     },
@@ -450,63 +450,63 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.psdimporter@10.1.0": {
+    "com.unity.2d.psdimporter@11.0.1": {
       "name": "com.unity.2d.psdimporter",
       "displayName": "2D PSD Importer",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.psdimporter@7cfb89931061",
-      "fingerprint": "7cfb899310610d953ec91c380a5a83dbbc5eabff",
-      "editorCompatibility": "6000.1.0a9",
-      "version": "10.1.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.psdimporter@0adcab25a8fd",
+      "fingerprint": "0adcab25a8fd3537d5829f344f6e2aa236d0cf8e",
+      "editorCompatibility": "6000.2.0a10",
+      "version": "11.0.1",
       "source": "registry",
       "testable": false
     },
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.sprite@4622bd4b1e4b",
-      "fingerprint": "4622bd4b1e4b35376f56b73a401175c149b6a9d1",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.sprite@331abd9a1e2f",
+      "fingerprint": "331abd9a1e2ff424a1ef2626e16936071ab7ce3d",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.spriteshape@10.1.0": {
+    "com.unity.2d.spriteshape@12.0.1": {
       "name": "com.unity.2d.spriteshape",
       "displayName": "2D SpriteShape",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.spriteshape@49c1d1a01890",
-      "fingerprint": "49c1d1a01890c6450aa2753c572ad04566abe2b7",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "10.1.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.spriteshape@1d246726c231",
+      "fingerprint": "1d246726c2316e2e6dd7d2aefba54ec6640affa9",
+      "editorCompatibility": "6000.2.0a10",
+      "version": "12.0.1",
       "source": "registry",
       "testable": false
     },
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.tilemap@5d642f5bb7de",
-      "fingerprint": "5d642f5bb7de8272b768459826a82150349f5870",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204",
+      "fingerprint": "0b99f08c02048105e3f87c2e1f97bcf4c860dae8",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.tilemap.extras@4.3.0": {
+    "com.unity.2d.tilemap.extras@5.0.1": {
       "name": "com.unity.2d.tilemap.extras",
       "displayName": "2D Tilemap Extras",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.tilemap.extras@eefc9f6533f8",
-      "fingerprint": "eefc9f6533f8872d0ba5aef24ef69a5698b05bed",
-      "editorCompatibility": "6000.1.0a9",
-      "version": "4.3.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.tilemap.extras@2338d989ff2a",
+      "fingerprint": "2338d989ff2aec99e03da44e42ae2faf1ebc037d",
+      "editorCompatibility": "6000.2.0a10",
+      "version": "5.0.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.aseprite@1.2.4": {
+    "com.unity.2d.aseprite@2.0.2": {
       "name": "com.unity.2d.aseprite",
       "displayName": "2D Aseprite Importer",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.aseprite@85ecd97bb34e",
-      "fingerprint": "85ecd97bb34ef7d790218acdd7941ef669c08e9a",
-      "editorCompatibility": "6000.1.0a9",
-      "version": "1.2.4",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.aseprite@dca42b450aa1",
+      "fingerprint": "dca42b450aa1933467340cfd7bce324ddf7b06b2",
+      "editorCompatibility": "6000.2.0a10",
+      "version": "2.0.2",
       "source": "registry",
       "testable": false
     },
@@ -520,13 +520,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.burst@1.8.21": {
+    "com.unity.burst@1.8.25": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.burst@59eb6f11d242",
-      "fingerprint": "59eb6f11d2422f95682320d9daa3e79fdb076744",
-      "editorCompatibility": "2020.3.0a1",
-      "version": "1.8.21",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.burst@1df634d836b8",
+      "fingerprint": "1df634d836b8106f13dc82401a91b336d615a874",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.25",
       "source": "registry",
       "testable": false
     },
@@ -540,53 +540,53 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.collections@2.5.1": {
+    "com.unity.collections@2.6.2": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
-      "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
-      "editorCompatibility": "2022.3.11f1",
-      "version": "2.5.1",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19",
+      "fingerprint": "aea9d3bd5e19f2a90fc3a39919974a5f3613a159",
+      "editorCompatibility": "2022.3.20f1",
+      "version": "2.6.2",
       "source": "registry",
       "testable": false
     },
     "com.unity.rendering.light-transport@1.0.1": {
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.rendering.light-transport@56c10358ff14",
-      "fingerprint": "56c10358ff14eb57febd7c4f20246fc73173d069",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.rendering.light-transport@2c9279f90d7c",
+      "fingerprint": "2c9279f90d7c8dfb6e76e3f90b6b3be1cafabfbc",
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.common@9.1.0": {
+    "com.unity.2d.common@11.0.1": {
       "name": "com.unity.2d.common",
       "displayName": "2D Common",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.common@2df623fe8b00",
-      "fingerprint": "2df623fe8b00fbc13c20621a43a73b66163de860",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "9.1.0",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.2d.common@dd402daace1b",
+      "fingerprint": "dd402daace1b7dbeb70cb9e7ae044cc4b10f989a",
+      "editorCompatibility": "6000.2.0a9",
+      "version": "11.0.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.nuget.mono-cecil@1.11.4": {
+    "com.unity.nuget.mono-cecil@1.11.5": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
-      "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
-      "editorCompatibility": "2018.4.0a1",
-      "version": "1.11.4",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb",
+      "fingerprint": "d78732e851eb42273c8e4d97993d3a94b207e570",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.11.5",
       "source": "registry",
       "testable": false
     },
-    "com.unity.test-framework.performance@3.1.0": {
+    "com.unity.test-framework.performance@3.2.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
-      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
-      "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
+      "resolvedPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Library\\PackageCache\\com.unity.test-framework.performance@0840f58e4562",
+      "fingerprint": "0840f58e45624f7677679a0f8b6a5137689e607f",
       "editorCompatibility": "2020.3.0a1",
-      "version": "3.1.0",
+      "version": "3.2.0",
       "source": "registry",
       "testable": false
     }

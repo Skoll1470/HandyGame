@@ -9,6 +9,15 @@ public class EnemyBasicAttackScript : AttackScript
 
     private bool isWalkingBack = false;
 
+    private float startingDistanceToPlayer = 0f;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        UpdateDistanceToPlayer();
+        startingDistanceToPlayer = distanceToPlayer.x;
+    }
+
     private void FixedUpdate()
     {
         UpdateDistanceToPlayer();
@@ -17,7 +26,7 @@ public class EnemyBasicAttackScript : AttackScript
             character.animator.SetTrigger(animatorTriggerName);
             isMoving = false;
         }
-        else if(distanceToPlayer.x >=5f && isMoving && isWalkingBack)
+        else if(distanceToPlayer.x >= startingDistanceToPlayer && isMoving && isWalkingBack)
         {
             isMoving = false;
             isWalkingBack = false;

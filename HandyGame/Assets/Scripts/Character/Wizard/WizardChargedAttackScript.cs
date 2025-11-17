@@ -10,12 +10,13 @@ public class WizardChargedAttackScript : AttackScript
 
     private bool isAttackPerforming = false;
 
-    private void Start()
+    private float startingDistanceToPlayer = 0f;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        if(numberOfTurns != 2)
-        {
-            Debug.Log("Wizard's Charged Attack does not have the correct number of turns");
-        }
+        UpdateDistanceToPlayer();
+        startingDistanceToPlayer = distanceToPlayer.x;
     }
 
     private void Update()
@@ -33,7 +34,7 @@ public class WizardChargedAttackScript : AttackScript
                 character.animator.SetTrigger(animatorTriggerName);
                 isMoving = false;
             }
-            else if (distanceToPlayer.x >= 6.3f && isMoving && isWalkingBack)
+            else if (distanceToPlayer.x >= startingDistanceToPlayer && isMoving && isWalkingBack)
             {
                 isMoving = false;
                 isWalkingBack = false;

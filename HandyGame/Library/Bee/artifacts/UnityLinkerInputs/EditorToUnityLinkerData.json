@@ -1209,13 +1209,6 @@
             ]
         },
         {
-            "managedAssemblyName": "UnityEngine.TilemapModule.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Tilemaps.Tile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Tilemap",
             "fullManagedTypeName": "UnityEngine.Tilemaps.Tilemap",
@@ -2983,6 +2976,14 @@
         {
             "name": "ComputeShader",
             "qualifiedName": "ComputeShader",
+            "nativeNamespace": "",
+            "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
+            "name": "D3D12DeviceFilterLists",
+            "qualifiedName": "D3D12DeviceFilterLists",
             "nativeNamespace": "",
             "module": "Core",
             "baseName": "NamedObject",

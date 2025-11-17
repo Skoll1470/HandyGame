@@ -152,11 +152,13 @@
     <type fullname="UnityEngine.InputSystem.WebGL.LowLevel.WebGLGamepadState" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.WebGL.WebGLGamepad" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.WebGL.WebGLJoystick" preserve="all"/>
+    <type fullname="UnityEngine.InputSystem.XInput.LowLevel.XInputControllerNativeOSXState" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.LowLevel.XInputControllerOSXState" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.LowLevel.XInputControllerWindowsState" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.LowLevel.XInputControllerWirelessOSXState" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.LowLevel.XInputControllerWirelessOSXStateV2" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.XboxGamepadMacOS" preserve="all"/>
+    <type fullname="UnityEngine.InputSystem.XInput.XboxGamepadMacOSNative" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.XboxGamepadMacOSWireless" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.XboxOneGampadMacOSWireless" preserve="all"/>
     <type fullname="UnityEngine.InputSystem.XInput.XInputController" preserve="all"/>

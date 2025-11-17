@@ -10,6 +10,15 @@ public class WizardBasicAttack : AttackScript
 
     private bool isAttackPerforming = false;
 
+    private float startingDistanceToPlayer = 0f;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        UpdateDistanceToPlayer();
+        startingDistanceToPlayer = distanceToPlayer.x;
+    }
+
     private void FixedUpdate()
     {
         if(isAttackPerforming)
@@ -20,7 +29,7 @@ public class WizardBasicAttack : AttackScript
                 character.animator.SetTrigger(animatorTriggerName);
                 isMoving = false;
             }
-            else if (distanceToPlayer.x >= 6.3f && isMoving && isWalkingBack)
+            else if (distanceToPlayer.x >= startingDistanceToPlayer && isMoving && isWalkingBack)
             {
                 isMoving = false;
                 isWalkingBack = false;

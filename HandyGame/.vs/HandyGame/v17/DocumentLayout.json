@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|c:\\users\\thoma\\onedrive\\bureau\\work\\handy\\handygame\\handygame\\assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|c:\\users\\thoma\\onedrive\\bureau\\work\\handy\\handygame\\handygame\\assets\\scripts\\character\\wizard\\wizardbasicattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\wizard\\wizardbasicattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\character\\wizard\\wizardchargedattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\wizard\\wizardchargedattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\character\\bringer\\enemybasicattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\bringer\\enemybasicattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\character\\warrior\\basicattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\warrior\\basicattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\ui\\dialogscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\fx\\healingfxscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fx\\healingfxscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\assets\\scripts\\character\\bringer\\enemybasicattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EAC3DE-6B21-1C2C-6D38-E0FD2A3B1BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\bringer\\enemybasicattackscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +52,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManagerScript.cs",
               "ToolTip": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\GameManagerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManagerScript.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAwwLwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAwAQBAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T08:25:00.623Z",
               "IsPinned": true,
@@ -52,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "HealingFXScript.cs",
               "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\FX\\HealingFXScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FX\\HealingFXScript.cs",
@@ -65,33 +73,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BasicAttack.cs",
               "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Warrior\\BasicAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Warrior\\BasicAttack.cs",
               "ToolTip": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Warrior\\BasicAttack.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character\\Warrior\\BasicAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T13:17:28.608Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "EnemyBasicAttackScript.cs",
               "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Bringer\\EnemyBasicAttackScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Bringer\\EnemyBasicAttackScript.cs",
               "ToolTip": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Bringer\\EnemyBasicAttackScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character\\Bringer\\EnemyBasicAttackScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T13:16:54.553Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WizardChargedAttackScript.cs",
+              "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Wizard\\WizardChargedAttackScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Wizard\\WizardChargedAttackScript.cs",
+              "ToolTip": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Wizard\\WizardChargedAttackScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Wizard\\WizardChargedAttackScript.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:12:16.367Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WizardBasicAttack.cs",
+              "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Wizard\\WizardBasicAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Wizard\\WizardBasicAttack.cs",
+              "ToolTip": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\Character\\Wizard\\WizardBasicAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Wizard\\WizardBasicAttack.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T08:57:36.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SceneManagement.cs",
               "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\SceneManagement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagement.cs",
@@ -103,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DialogScript.cs",
               "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Bureau\\Work\\Handy\\HandyGame\\HandyGame\\Assets\\Scripts\\UI\\DialogScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DialogScript.cs",
