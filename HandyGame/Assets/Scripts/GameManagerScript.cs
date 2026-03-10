@@ -98,20 +98,20 @@ public class GameManagerScript : MonoBehaviour
             // Determining wich Dialog to show
             if(player.GetIsBlocking())
             {
-                StartNewDialog("Vous vous pr�parez � bloquer une attaque.");
+                StartNewDialog("Vous vous préparez à bloquer une attaque.");
             }
             else if(playerHealed)
             {
-                StartNewDialog("Vous vous �tes soign� de 2 d�g�ts !");
+                StartNewDialog("Vous vous êtes soigné de 2 dégâts !");
                 playerHealed = false;
             }
             else if(enemy.GetIsBlocking())
             {
-                StartNewDialog("Ennemi a bloqu� l'attaque !");
+                StartNewDialog("Ennemi a bloqué l'attaque !");
             }
             else
             {
-                StartNewDialog("Vous avez inflig� " + player.attacks[0].damage + " d�g�ts !");
+                StartNewDialog("Vous avez infligé " + player.attacks[0].damage + " dégâts !");
             }
 
             // Resetting the Enemy Blocking State
@@ -131,19 +131,19 @@ public class GameManagerScript : MonoBehaviour
             {
                 if (enemyAttackRemainingTurns > 0)
                 {
-                    StartNewDialog("Ennemi pr�pare une attaque...");
+                    StartNewDialog("Ennemi prépare une attaque...");
                 }
                 else if(enemy.GetIsBlocking())
                 {
-                    StartNewDialog("Ennemi se pr�pare � bloquer une attaque...");
+                    StartNewDialog("Ennemi se prépare à bloquer une attaque...");
                 }
                 else if (player.GetIsBlocking())
                 {
-                    StartNewDialog("Vous avez bloqu� l'attaque !");
+                    StartNewDialog("Vous avez bloqué l'attaque !");
                 }
                 else
                 {
-                    StartNewDialog("Vous avez subit " + enemy.attacks[enemyAttackIndex].damage + " d�g�ts !");
+                    StartNewDialog("Vous avez subit " + enemy.attacks[enemyAttackIndex].damage + " dégâts !");
                 }
 
                 // Resetting the Player Blocking State

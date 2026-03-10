@@ -1209,6 +1209,13 @@
             ]
         },
         {
+            "managedAssemblyName": "UnityEngine.TilemapModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Tilemaps.Tile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Tilemap",
             "fullManagedTypeName": "UnityEngine.Tilemaps.Tilemap",
@@ -2294,6 +2301,14 @@
             "baseModule": "Core"
         },
         {
+            "name": "RenderAs2D",
+            "qualifiedName": "RenderAs2D",
+            "nativeNamespace": "",
+            "module": "RenderAs2D",
+            "baseName": "Renderer",
+            "baseModule": "Core"
+        },
+        {
             "name": "SkinnedMeshRenderer",
             "qualifiedName": "SkinnedMeshRenderer",
             "nativeNamespace": "",
@@ -2550,14 +2565,6 @@
             "baseModule": "Editor"
         },
         {
-            "name": "C4DImporter",
-            "qualifiedName": "C4DImporter",
-            "nativeNamespace": "",
-            "module": "Core",
-            "baseName": "AssetImporter",
-            "baseModule": "Editor"
-        },
-        {
             "name": "ComputeShaderImporter",
             "qualifiedName": "ComputeShaderImporter",
             "nativeNamespace": "",
@@ -2801,7 +2808,7 @@
             "name": "VideoClipImporter",
             "qualifiedName": "VideoClipImporter",
             "nativeNamespace": "",
-            "module": "Editor",
+            "module": "VideoEditor",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
         },
@@ -2946,6 +2953,14 @@
             "qualifiedName": "BillboardAsset",
             "nativeNamespace": "",
             "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
+            "name": "BlobObject",
+            "qualifiedName": "BlobObject",
+            "nativeNamespace": "",
+            "module": "Animation",
             "baseName": "NamedObject",
             "baseModule": "Core"
         },
@@ -4062,9 +4077,13 @@
             "baseModule": ""
         }
     ],
-    "forceIncludeModules": [],
+    "forceIncludeModules": [
+        "PhysicsBackendPhysX"
+    ],
     "forceExcludeModules": [
         "AMD",
+        "Hierarchy",
         "NVIDIA"
-    ]
+    ],
+    "dynamicModuleDependencies": []
 }

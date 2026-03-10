@@ -99,6 +99,12 @@ public class SceneManagement : MonoBehaviour
         isGamePaused = !isGamePaused;
         Time.timeScale = isGamePaused ? 0 : 1;
         canvas.pauseImage.gameObject.SetActive(isGamePaused);
+        
+        if(settingsImage.IsActive() && !isGamePaused)
+        {
+            settingsImage.gameObject.SetActive(false);
+        }
+
         SaveJson();
     }
 
